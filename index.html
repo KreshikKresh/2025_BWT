@@ -6,7 +6,10 @@
     <title>DOM_JS. Считываем информацию из DOM</title>
 </head>
 
+<body background="./photos/smmdog.jpg"></body>
+
 <body>
+
     <p>Фамилия:
         <span id="sur">Горнова</span>
     </p>
@@ -22,18 +25,6 @@
  (пример запроса)-->
 </body>
 
-<script> function find_edit() {
-        const item = document.getElementById('sur')
-        console.log(item.innerText)
-        item.innerHTML = "<b>Gornova</b>"
-
-        const item2 = document.getElementById('nam')
-        console.log(item2.innerText)
-        item2.innerHTML = "<b>Ekaterina</b>"
-    }
-
-    const node_for_click = document.getElementById("for_click")
-    node_for_click.addEventListener("click", find_edit)</script>
-<script src="tmp.js"></script>
+<script src="./tmp.js"></script>
 
 </html>

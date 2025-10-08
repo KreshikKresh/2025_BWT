@@ -6,8 +6,6 @@
     <title>Паспорт</title>
 </head>
 
-<!--<body background="./photos/smmdog.jpg"></body>-->
-
 <table align="left" cellspacing="0" cellpadding="10" border="1" width="525px" height="700px"
     background="./passport.jpg">
 
@@ -18,9 +16,9 @@
     </tr>
 
     <tr>
-        <td align="left" height="60px" colspan="3" valign="top">
-            <span id="vidan">               ГУ МВД РФ ПО Г. САНКТ-ПЕТЕРБУРГУ <br>
-                 И ЛЕНИНГРАДСКОЙ ОБЛАСТИ</span>
+        <td align="right" height="60px" colspan="3" valign="top">
+            <span id="vidan">ГУ МВД РФ ПО Г. САНКТ-ПЕТЕРБУРГУ <br> <br>
+            И ЛЕНИНГРАДСКОЙ ОБЛАСТИ</span>
             <td rowspan="4"> 444444</td>
         </td>
     </tr>
@@ -29,37 +27,38 @@
             <span id="data">20.09.2020</span>
         </td>
         <td height="30px" valign="top" align="right">
-            <span id="code1">123</span>
+            <span id="code1">123456</span>
         </td>
 
     </tr>
     <tr>
-        <td height="50px" colspan="3" align="right" valign="top">
-            <span>123</span>
-            <img align="right" src="./podpis.png" width="60px">
-            <img align="left" src="./podpis.png" width="70px">
+        <td><img align="right" src="./ppodpis.jpg" width="170px"></td>
+        <td height="50px" colspan="2" align="right" height="250px">
+            <span>55555</span>
+            <p align="center"><span>
+                <img align="right" src="./podpis.png" width="60px">
+            </span>
+        </p>
         </td>
     </tr>
 
  
     <tr>
         <td>
-        <img src="./lumin.jpg" width="150" align="right" valign="center">
+        <img src="./lumin.jpg" width="150" align="right">
     </td>
-    <td width="375">
+    <td width="375"  align="center">
         <p>
             <span id="sur">    ГОРНОВА</span>
         </p>
-        <br>
         <p>
             <span id="nam">    ЕКАТЕРИНА</span>
         </p>
         <p>
             <span id="pat">    АЛЕКСЕЕВНА</span>
         </p>
-            <p>
-                <span id="gen">ЖЕН.</span>
-               
+            <p align="left">
+                <span id="gen">ЖЕН. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span>
                 <span id="year">18.08.2006</span>
             </p>
         <p>
@@ -78,11 +77,14 @@
     <!--document.getElementById("year").innerText 
  (пример запроса)-->
 
-    <a href="./index.html" target="_self"><img height="100px" src="./house.png"></a>
+    <a href="./index.html" target="_self"><img height="100px" src="./photos/house.png"></a>
 </body>
 
-<script src="./tmp.js"></script>
+<p align="right">DOM_JS. Считываем информацию из DOM</p>
+<img src="./example.png"  width="720" align="right">
 
+
+<script src="./tmp.js"></script>
 
 </html>
 

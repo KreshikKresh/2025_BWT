@@ -1,0 +1,85 @@
+
+body {
+    background-color: rgb(235, 250, 255);
+    background-image: url("/CSS/examples.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+h1 {
+    color: #1557c5;
+    text-align: center;
+    border-block: 5px solid rgb(17, 0, 255);
+    text-shadow: 2px 2px 5px rgba(0, 153, 255, 0.587);
+    font-style: oblique ;
+}
+h2 {
+    color: #023ca0;
+    text-shadow: 1px 1px 1px rgba(0, 153, 255, 0.587);
+    font-style: italic ;
+}
+h3 {
+    color: #bf29ff;
+    text-shadow: 1px 1px 1px rgba(255, 0, 230, 0.217);
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+}
+
+#right {
+    text-align: right;
+    color: green;
+}
+
+/* div {
+    block-size: 50px;
+} 
+
+div {
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+  }
+
+div {
+    height: 200px;
+    width: 50%;
+    background-color: rgb(129, 255, 255);
+  }
+ */
+a:link, a:visited {
+    background-color: #365ff4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:active {
+    background-color: rgb(46, 58, 228);
+  }
+a:hover {
+    background-color: rgb(104, 112, 230)
+}
+
+ul {
+  list-style-image: url('./podpis.png');
+}
+
+ul li {
+  color: rgb(23, 0, 139);
+  padding: 10px;
+  margin-left: 20px;
+  font-size: medium;
+}
+
